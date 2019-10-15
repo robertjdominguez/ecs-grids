@@ -1,0 +1,16 @@
+body {
+    background: tomato;
+    color: white;
+    font-family: 'Monsanto', serif;
+    font-size: 25px;
+    line-height: 2rem;
+}
+
+/* Item rules */
+.item {
+    display: grid;
+    place-items: center center;
+    background: rgb(122, 17, 192);
+    border-radius: 4px;
+    min-height: 200px;
+}

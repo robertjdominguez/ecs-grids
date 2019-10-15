@@ -1,0 +1,11 @@
+/* This is our wrapper */
+.container {
+    /* Edit the display property */
+    display: grid;
+
+    /* Tell the browser how wide each column should be */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    /* Give the grid-gap a value */
+    grid-gap: 20px;
+}
