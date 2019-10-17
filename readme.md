@@ -7,7 +7,7 @@ These will serve as our notes in class today. Check off items as we complete the
 ## What is a grid?
 
 All html elements have a property called `display` that allows us to change how something is viewed. With this property, we can assign it a value of `grid` to
-tell the browser that the element will have a certain number of rows and columns. Using grid makes it super easy to create a website that is reponsive -- this means that as the size of the screen changes, the content will adjust to fit it.
+tell the browser that the element will have a certain number of rows and columns. Using grid makes it super easy to create a website that is responsive -- this means that as the size of the screen changes, the content will adjust to fit it.
 
 ## Steps
 
@@ -78,3 +78,5 @@ The code above is telling the browser that there should be three columns that ar
     grid-gap: 20px;
 }
 ```
+## Challenge!
+Once you've finished this, go back to our `fix-it` repo and change the Altacorp's project page to have three equal columns on larger screens, but automatically resize the project-cards to the whole screen as the window gets smaller.
